@@ -136,6 +136,7 @@ function autobind(
             const [title, desc, manday] = userInput;
             console.log(title, desc, manday);
             this.clearInputs();
+            console.log("test");
         }
     }
 
